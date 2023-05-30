@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* html {
+   background-color: #fff;
+} */
+body{
+    background: #222;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: #222;
+    height: 130vh;
+}
+
+.container img {
+    width: 5%;
+}
+
+.container h1 {
+    margin: 12px;
+    margin-left: 30px;
+}
+
+.container h1 span {
+    color: #2874f0;
+}
+
+.navbar {}
+
+.navbar ul li {
+    list-style: none;
+    float: left;
+    margin: 20px;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+
+.navbar ul li a:hover {
+    color: #222;
+    background: #2874f0;
+    border-radius: 0px 5px 0px 5px;
+    padding: 8px 12px 8px 12px;
+}
+
+.music {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.music-font {
+    margin-top: 20vh;
+    margin-left: 30px;
+}
+
+.music-font h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #2874f0;
+}
+
+.music-font2 {
+    margin-top: 30px;
+    color: aliceblue;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-alt {
+    margin-top: 30px;
+}
+
+.btn-alt button {
+    padding: 12px 25px 12px 25px;
+    border-radius: 5px;
+    background: #2874f0;
+    border: 2px solid #2874f0;
+    margin-left: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-alt button:hover {
+    background: #396ab9;
+    transform: scale(1.08);
+}
+
+.music-img img {
+    margin-right: 9vw;
+    transition: .3s;
+    transform: rotate(15deg);
+}
+
+.music-img img:hover {
+    transform: scale(1.10) rotate(30deg);
+}
+
+@media(max-width:900px){
+    .music-img img{
+        width: 100%;
+    }
+}
+@media(max-width:500px) {
+    .music-img img {
+     width: 70%;
+     margin-left: 70px;
+     margin-top: 12px;
+    }
+    .music{
+        display: flex;
+        flex-direction: column;
+        top: 8%;
+    }
+}
+
+/* Card items  */
+
+.card {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #222;
+    padding: 30px 35px;
+    
+}
+
+.box1 {
+    width: 320px;
+    height: 400px;
+    background: none;
+    margin: 12px;
+    border: 2px solid #2874f0;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+} 
+.box1:hover{
+    background: #2874f0;
+    opacity: 0.8;
+   transform: scaleX(1.02);
+}
+
+.box1 img{
+ transition: 0.2s;
+}
+.box1 img:hover{
+    transform: scale(1.05);
+}
+
+button{
+    padding: 10px 20px 10px 20px ;
+    text-align: center;
+    margin:12px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+    color: white;
+    background-color: #222;
+    border: 2px solid #222;
+    transform: scaleY(1.02);
+}
+
+.heading{
+    background: #222;
+    color: #2874f0;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.heading h2{
+   /* position: absolute; */
+   font-size: 2rem;
+
+}
